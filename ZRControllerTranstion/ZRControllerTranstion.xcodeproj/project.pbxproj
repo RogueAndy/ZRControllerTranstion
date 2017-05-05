@@ -15,6 +15,7 @@
 		829A5E011EBC62D900A74CC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 829A5DFF1EBC62D900A74CC1 /* LaunchScreen.storyboard */; };
 		829A5E101EBC64BC00A74CC1 /* RogueViewControllerTranstion.m in Sources */ = {isa = PBXBuildFile; fileRef = 829A5E0D1EBC64BC00A74CC1 /* RogueViewControllerTranstion.m */; };
 		829A5E111EBC64BC00A74CC1 /* RTranstionCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 829A5E0F1EBC64BC00A74CC1 /* RTranstionCache.m */; };
+		829A5E141EBC754300A74CC1 /* ZRBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829A5E131EBC754300A74CC1 /* ZRBaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		829A5E0D1EBC64BC00A74CC1 /* RogueViewControllerTranstion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RogueViewControllerTranstion.m; sourceTree = "<group>"; };
 		829A5E0E1EBC64BC00A74CC1 /* RTranstionCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTranstionCache.h; sourceTree = "<group>"; };
 		829A5E0F1EBC64BC00A74CC1 /* RTranstionCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTranstionCache.m; sourceTree = "<group>"; };
+		829A5E121EBC754300A74CC1 /* ZRBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRBaseViewController.h; sourceTree = "<group>"; };
+		829A5E131EBC754300A74CC1 /* ZRBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRBaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				829A5E0D1EBC64BC00A74CC1 /* RogueViewControllerTranstion.m */,
 				829A5E0E1EBC64BC00A74CC1 /* RTranstionCache.h */,
 				829A5E0F1EBC64BC00A74CC1 /* RTranstionCache.m */,
+				829A5E121EBC754300A74CC1 /* ZRBaseViewController.h */,
+				829A5E131EBC754300A74CC1 /* ZRBaseViewController.m */,
 			);
 			name = ZRControllerTranstionDir;
 			path = ../../ZRControllerTranstionDir;
@@ -171,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				829A5E101EBC64BC00A74CC1 /* RogueViewControllerTranstion.m in Sources */,
+				829A5E141EBC754300A74CC1 /* ZRBaseViewController.m in Sources */,
 				829A5DF91EBC62D900A74CC1 /* ViewController.m in Sources */,
 				829A5DF61EBC62D900A74CC1 /* AppDelegate.m in Sources */,
 				829A5DF31EBC62D900A74CC1 /* main.m in Sources */,
@@ -337,6 +343,7 @@
 				829A5E071EBC62D900A74CC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

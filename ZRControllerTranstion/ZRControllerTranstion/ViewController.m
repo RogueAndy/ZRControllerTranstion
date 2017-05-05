@@ -118,39 +118,39 @@
     
     switch (sender.tag) {
         case 20000: {
-            [self.navigationController popTopToBottomPresent_popViewControllerAnimated:YES];
+            [self popTopToBottomPresent_popViewControllerAnimated:YES];
         }
             break;
         case 20001: {
-            [self.navigationController popBottomToTopPresent_popViewControllerAnimated:YES];
+            [self popBottomToTopPresent_popViewControllerAnimated:YES];
         }
             break;
         case 20002: {
-            [self.navigationController popLeftToRight_popViewControllerAnimated:YES];
+            [self popLeftToRight_popViewControllerAnimated:YES];
         }
             break;
         case 20003: {
-            [self.navigationController popRightToLeft_popViewControllerAnimated:YES];
+            [self popRightToLeft_popViewControllerAnimated:YES];
         }
             break;
         case 20004: {
-            [self.navigationController popAlpha_popViewControllerAnimated:YES];
+            [self popAlpha_popViewControllerAnimated:YES];
         }
             break;
         case 20005: {
-            [self.navigationController popAlphaTopToBottomPresent_popViewControllerAnimated:YES];
+            [self popAlphaTopToBottomPresent_popViewControllerAnimated:YES];
         }
             break;
         case 20006: {
-            [self.navigationController popAlphaBottomToTopPresent_popViewControllerAnimated:YES];
+            [self popAlphaBottomToTopPresent_popViewControllerAnimated:YES];
         }
             break;
         case 20007: {
-            [self.navigationController popAlphaLeftToRight_popViewControllerAnimated:YES];
+            [self popAlphaLeftToRight_popViewControllerAnimated:YES];
         }
             break;
         case 20008: {
-            [self.navigationController popAlphaRightToLeft_popViewControllerAnimated:YES];
+            [self popAlphaRightToLeft_popViewControllerAnimated:YES];
         }
             break;
             
@@ -256,40 +256,40 @@
     
     switch (sender.tag) {
         case 10000: {
-            [self.navigationController pushTopToBottomPresent_pushViewController:v2 animated:YES];
+            [self pushTopToBottomPresent_pushViewController:v2 animated:YES];
         }
             break;
         case 10001: {
-            [self.navigationController pushBottomToTopPresent_pushViewController:v2 animated:YES];
+            [self pushBottomToTopPresent_pushViewController:v2 animated:YES];
         }
             break;
         case 10002: {
-            [self.navigationController pushLeftToRight_pushViewController:v2 animated:YES];
+            [self pushLeftToRight_pushViewController:v2 animated:YES];
         }
             break;
         case 10003: {
-            [self.navigationController pushRightToLeft_pushViewController:v2 animated:YES];
+            [self pushRightToLeft_pushViewController:v2 animated:YES];
         }
             break;
         case 10004: {
-            [self.navigationController pushAlpha_pushViewController:v2 animated:YES];
+            [self pushAlpha_pushViewController:v2 animated:YES];
         }
             break;
             
         case 10005: {
-            [self.navigationController pushAlphaTopToBottomPresent_pushViewController:v2 animated:YES];
+            [self pushAlphaTopToBottomPresent_pushViewController:v2 animated:YES];
         }
             break;
         case 10006: {
-            [self.navigationController pushAlphaBottomToTopPresent_pushViewController:v2 animated:YES];
+            [self pushAlphaBottomToTopPresent_pushViewController:v2 animated:YES];
         }
             break;
         case 10007: {
-            [self.navigationController pushAlphaLeftToRight_pushViewController:v2 animated:YES];
+            [self pushAlphaLeftToRight_pushViewController:v2 animated:YES];
         }
             break;
         case 10008: {
-            [self.navigationController pushAlphaRightToLeft_pushViewController:v2 animated:YES];
+            [self pushAlphaRightToLeft_pushViewController:v2 animated:YES];
         }
             break;
             

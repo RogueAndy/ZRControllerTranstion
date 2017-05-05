@@ -499,7 +499,7 @@
 
 
 
-@implementation UINavigationController (RogueNavigationController)
+@implementation UIViewController (RogueNavigationController)
 
 #pragma mark - pushViewController
 
@@ -507,7 +507,7 @@
 
     [RTranstionCache shareInstance].transtionType = RoguePushAlphaTranstion;
     [RTranstionCache shareInstance].transtionDuration = 0.25;
-    [self pushViewController:viewController animated:animate];
+    [self.navigationController pushViewController:viewController animated:animate];
 
 }
 
@@ -515,7 +515,7 @@
 
     [RTranstionCache shareInstance].transtionType = RoguePushTopToBottomPresentTranstion;
     [RTranstionCache shareInstance].transtionDuration = 0.25;
-    [self pushViewController:viewController animated:animate];
+    [self.navigationController pushViewController:viewController animated:animate];
 
 }
 
@@ -523,7 +523,7 @@
 
     [RTranstionCache shareInstance].transtionType = RoguePushBottomToTopPresentTranstion;
     [RTranstionCache shareInstance].transtionDuration = 0.25;
-    [self pushViewController:viewController animated:animate];
+    [self.navigationController pushViewController:viewController animated:animate];
     
 }
 
@@ -531,7 +531,7 @@
 
     [RTranstionCache shareInstance].transtionType = RoguePushLeftToRightTranstion;
     [RTranstionCache shareInstance].transtionDuration = 0.25;
-    [self pushViewController:viewController animated:animate];
+    [self.navigationController pushViewController:viewController animated:animate];
 
 }
 
@@ -539,7 +539,7 @@
 
     [RTranstionCache shareInstance].transtionType = RoguePushRightToLeftTranstion;
     [RTranstionCache shareInstance].transtionDuration = 0.25;
-    [self pushViewController:viewController animated:animate];
+    [self.navigationController pushViewController:viewController animated:animate];
 
 }
 
@@ -547,7 +547,7 @@
 
     [RTranstionCache shareInstance].transtionType = RoguePushAlphaTopToBottomPresentTranstion;
     [RTranstionCache shareInstance].transtionDuration = 0.25;
-    [self pushViewController:viewController animated:animate];
+    [self.navigationController pushViewController:viewController animated:animate];
 
 }
 
@@ -555,7 +555,7 @@
 
     [RTranstionCache shareInstance].transtionType = RoguePushAlphaBottomToTopPresentTranstion;
     [RTranstionCache shareInstance].transtionDuration = 0.25;
-    [self pushViewController:viewController animated:animate];
+    [self.navigationController pushViewController:viewController animated:animate];
 
 }
 
@@ -563,7 +563,7 @@
 
     [RTranstionCache shareInstance].transtionType = RoguePushAlphaLeftToRightTranstion;
     [RTranstionCache shareInstance].transtionDuration = 0.25;
-    [self pushViewController:viewController animated:animate];
+    [self.navigationController pushViewController:viewController animated:animate];
 
 }
 
@@ -571,7 +571,7 @@
 
     [RTranstionCache shareInstance].transtionType = RoguePushAlphaRightToLeftTranstion;
     [RTranstionCache shareInstance].transtionDuration = 0.25;
-    [self pushViewController:viewController animated:animate];
+    [self.navigationController pushViewController:viewController animated:animate];
 
 }
 
@@ -581,7 +581,7 @@
 
     [RTranstionCache shareInstance].transtionType = RoguePopAlphaTranstion;
     [RTranstionCache shareInstance].transtionDuration = 0.25;
-    [self popViewControllerAnimated:animate];
+    [self.navigationController popViewControllerAnimated:animate];
 
 }
 
@@ -589,7 +589,7 @@
 
     [RTranstionCache shareInstance].transtionType = RoguePopBottomToTopPresentTranstion;
     [RTranstionCache shareInstance].transtionDuration = 0.25;
-    [self popViewControllerAnimated:animate];
+    [self.navigationController popViewControllerAnimated:animate];
 
 }
 
@@ -597,7 +597,7 @@
 
     [RTranstionCache shareInstance].transtionType = RoguePopTopToBottomPresentTranstion;
     [RTranstionCache shareInstance].transtionDuration = 0.25;
-    [self popViewControllerAnimated:animate];
+    [self.navigationController popViewControllerAnimated:animate];
 
 }
 
@@ -605,7 +605,7 @@
 
     [RTranstionCache shareInstance].transtionType = RoguePopRightToLeftTranstion;
     [RTranstionCache shareInstance].transtionDuration = 0.25;
-    [self popViewControllerAnimated:animate];
+    [self.navigationController popViewControllerAnimated:animate];
 
 }
 
@@ -613,7 +613,7 @@
 
     [RTranstionCache shareInstance].transtionType = RoguePopLeftToRightTranstion;
     [RTranstionCache shareInstance].transtionDuration = 0.25;
-    [self popViewControllerAnimated:animate];
+    [self.navigationController popViewControllerAnimated:animate];
 
 }
 
@@ -621,7 +621,7 @@
 
     [RTranstionCache shareInstance].transtionType = RoguePopAlphaBottomToTopPresentTranstion;
     [RTranstionCache shareInstance].transtionDuration = 0.25;
-    [self popViewControllerAnimated:animate];
+    [self.navigationController popViewControllerAnimated:animate];
 
 }
 
@@ -629,7 +629,7 @@
 
     [RTranstionCache shareInstance].transtionType = RoguePopAlphaTopToBottomPresentTranstion;
     [RTranstionCache shareInstance].transtionDuration = 0.25;
-    [self popViewControllerAnimated:animate];
+    [self.navigationController popViewControllerAnimated:animate];
 
 }
 
@@ -637,7 +637,7 @@
 
     [RTranstionCache shareInstance].transtionType = RoguePopAlphaRightToLeftTranstion;
     [RTranstionCache shareInstance].transtionDuration = 0.25;
-    [self popViewControllerAnimated:animate];
+    [self.navigationController popViewControllerAnimated:animate];
 
 }
 
@@ -645,7 +645,7 @@
 
     [RTranstionCache shareInstance].transtionType = RoguePopAlphaLeftToRightTranstion;
     [RTranstionCache shareInstance].transtionDuration = 0.25;
-    [self popViewControllerAnimated:animate];
+    [self.navigationController popViewControllerAnimated:animate];
 
 }
 

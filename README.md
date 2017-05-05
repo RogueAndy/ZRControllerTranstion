@@ -4,6 +4,8 @@
  #import "RogueViewControllerTranstion.h"
  ```
  
+ 第一个类，必须要继承使用 ZRBaseViewController.h 该文件，其余不用继承此类,因为该类实现了一些代理设置，只需要继承即可
+ 
  该转场动画与常用系统自带的转场动画有一点点区别，注释如下
  
  ```

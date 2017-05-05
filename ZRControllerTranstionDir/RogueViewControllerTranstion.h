@@ -64,7 +64,7 @@ typedef NS_ENUM(NSInteger, RogueTranstionType)
 
 
 
-@interface UINavigationController (RogueNavigationController)
+@interface UIViewController (RogueNavigationController)
 
 - (void)pushAlpha_pushViewController:(UIViewController *)viewController animated:(BOOL)animate;
 - (void)pushTopToBottomPresent_pushViewController:(UIViewController *)viewController animated:(BOOL)animate;
