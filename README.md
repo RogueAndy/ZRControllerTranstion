@@ -54,5 +54,11 @@
 - (void)popAlphaRightToLeft_popViewControllerAnimated:(BOOL)animate;
 - (void)popAlphaLeftToRight_popViewControllerAnimated:(BOOL)animate;
  ```
-
+ 
+ 以上使用方法的分类，是基于 UIViewController 的方法生成，所以使用的时候，很简单，只需要 eg:
+ self 都代表着 UIViewController
+```
+[self pushRightToLeft_pushViewController:v2 animated:YES];
+[self popRightToLeft_popViewControllerAnimated:YES];
+```
 
